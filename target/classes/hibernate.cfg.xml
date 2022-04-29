@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+
+        <property name="connection.url">jdbc:postgresql://localhost/jdbctest</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">1234</property>
+
+        <property name="connection.driver_class">org.postgresql.Driver</property> <!-- DB Driver -->
+        <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property> <!-- DB Dialect -->
+
+        <mapping class="hibernate.Cat"/>
+        <mapping class="hibernate.Dog"/>
+<!--        <mapping class="relations.Employee"/>-->
+<!--        <mapping class="relations.Project"/>-->
+<!--        <mapping class="movies.Track"/>-->
+<!--        <mapping class="movies.Person"/>-->
+    </session-factory>
+</hibernate-configuration>
+

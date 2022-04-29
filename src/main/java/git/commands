@@ -1,0 +1,66 @@
+git log                         -> show revisions
+git log --graph                 -> show revisions with graph
+git log --grapg --oneline       -> show shortcutted revisions with graph
+git log --graph --oneline --all ->show shortcutted revisions with graph all branch
+
+//
+--   -> parameter with full name
+-    -> parameter with first letter
+//
+
+git config --global alias.gr "log --graph --oneline --all"       --> create shortcut with the name "gr"
+git diff                        -> compare working tree with staging area
+git diff --staged               -> compare staging area with repo
+git deff <commit>               -> compare working tree with repo (you can add specefic file as a parametr)
+
+git branch <name>               -> create a new branch <name>
+
+git reset <file>                -> remove staging area, supersedes it by the version from repo
+git checkout <repo> <file>      -> download the version of some file in repo to working tree
+git checkout <revision/branch>         -> download the version of all repo to working tree
+git checkout --force <revision/branch> -> download the version of all repo to working tree (stashed changes)
+
+//if you switch to repo, you will be in detouched head mode. It means that you can create an orphean.
+You can also switch to branch.
+
+git clear -nd                   -> stash untracked files (request to show untracked files)
+git cleat -fd                   -> stash untracked files  (request to stash untracked files)
+git chechout ~<number>          -> switch to the <number> parent in actual branch
+
+git merge <branch name>        -> merge to head branch
+git merge --no-ff              -> merge to head branch without fast forward merge
+
+//merge could be "fast forward"(without an extra commit) or "three way"(with an extra commit)
+
+git merge                      -> continue (after fixing conflict)
+git branch                     -> show list of all branch
+git branch --list <name ora part of name           ->  show specific list of branch
+example:
+git branch --list feature/s    -> show list of branch which starts with "feature/s"
+git reflog                     -> show history of commands
+git branch -d <branch>         -> delete branch <branch>
+
+git remote                     -> show remote repos
+git remote -v                  -> git remote with details
+//origin - source repo
+git clone <link>               -> clone remote repo
+
+git push <repoToSend> <branch> -> push local branch to remote repo
+git fetch <repoToSend>         -> fetch remote repo
+git pull <repoFrom> <remoteBranch>   ->git fetch origin master $ git merge <remoteBranch>
+
+//tracking (blue):
+git branch -l           -> all branches
+git branch -la          -> all branches (local and remote)
+git branch -lav         -> all branches (local and remote extra)
+git branch -lavv        -> all branches (local and remote extra extra)
+
+$ git push -u origin feature/zakupy  -> push local branch to remote repo and set tracked branch
+
+
+git add patch
+
+
+
+
+

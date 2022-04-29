@@ -1,0 +1,5 @@
+1. S: Single responsibility - jeden powód do zmiany
+2. O: Open close - otwarte rozszerzenie zakmknięte na zmienianie kodu
+3. L: Liscov substitution - zasada podmiany (poprawne zastosowanie polimofrizmu, dziedziczenia)
+4. I: Interface segregation - lepsze są małe intefejsy, niż jeden duży
+5. D: Dependency inversion - klasy ogólne nie powinny korzystać z niskopoziomowych szczegółów. Jedne i drugie powinny zależeć od abstrakcji.

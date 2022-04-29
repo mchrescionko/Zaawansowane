@@ -1,0 +1,1 @@
+[{"intField1":1,"intField2":2,"stringField1":"raz","stringField2":"dwa","newObject":null,"tabInt":[1,2,3],"temperature":null},{"intField1":1,"intField2":2,"stringField1":"raz","stringField2":"dwa","newObject":{"intField1":1,"intField2":2,"stringField1":"raz","stringField2":"dwa","newObject":null,"tabInt":[1,2,3],"temperature":null},"tabInt":null,"temperature":null}]

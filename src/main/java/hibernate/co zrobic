@@ -1,0 +1,10 @@
+hibernate tutorial
+strategie generowania id
+jak przechowywać sety, mapy, list
+jak zapisać strukture dziedziczenia
+problem n wartości
+jak zapisywać enumy i daty
+
+1.czemu po dodaniu do tabeli dog rekordu, wyswietla sie komunikat Hibernate: insert into Dog (age, name, id) values (?, ?, ?)
+2. Czemu parametryzowac element repositoryDB skoto bez parametryzacji tez dziala?
+3.Skoro parametryzujemy klase to po co parametryzowac pozniej kazda metode?

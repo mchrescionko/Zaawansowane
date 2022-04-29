@@ -1,0 +1,4 @@
+1. Program sprawdzajacy programy z folderu, sprawdzajacy wyniki i zapisujacy rezultaty do innego folderu:
+a) sprawdzanie poprawnosci kodu pod katem nawiasow (lexer, parser)
+2. Spring: bootstrap, hibernate/jdbc/serializacja
+3.

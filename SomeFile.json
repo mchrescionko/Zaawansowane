@@ -1,0 +1,9 @@
+{
+  "name": "Jan",
+  "get_my_number2": 4,
+  "my_number": 5,
+  "my_object2l": {
+                  "number":6,
+                  "name": "Kamil"
+                }
+}
